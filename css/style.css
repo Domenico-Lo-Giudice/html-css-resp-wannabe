@@ -129,8 +129,9 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* mobile dai 480px in giù*/
-@media screen and (max-width: 480px) {
+/* MOBILE dai 480px in giù*/
+
+/* @media screen and (max-width: 480px) {
     .container .row{
         flex-direction: column;
         width: 50%;
@@ -141,4 +142,11 @@ img {
         width: 100%;
         text-align: start;
     }
-}
+} */
+
+
+/* TABLET dai 768px in giù */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
