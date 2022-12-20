@@ -50,6 +50,7 @@ img {
     width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    
 }
 
 .row {
@@ -128,5 +129,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* mobile */
+/* mobile dai 480px in giù*/
+@media screen and (max-width: 480px) {
+    .container .row{
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+    }
 
+    .container h2 {
+        width: 100%;
+        text-align: start;
+    }
+}
